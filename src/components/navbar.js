@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "./buttons";
 
 export const Navbar = ({logo}) => {
     return (
@@ -10,9 +11,10 @@ export const Navbar = ({logo}) => {
 
                 <div class="links flex">
                 <button href="#" class="text-black">Search Bar</button>
-                <button class="bg-gray-400 hover:bg-gray-500 text-base text-white font-semibold py-2 px-4 rounded">
-                    Create Blog Post
-                </button>
+               <Button 
+                title="Create Blog Post"
+                onClick=""
+                />
                 </div>
             </div>
         </nav>      
