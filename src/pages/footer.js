@@ -1,5 +1,5 @@
 
-export const Navbar = ({logo}) => {
+export const Footer = ({logo}) => {
     return (
         <nav class="bg-gray-300 p-4">
             <div class="container mx-auto flex justify-between items-center">
@@ -7,9 +7,8 @@ export const Navbar = ({logo}) => {
                 <img src={logo} alt="Logo" class="h-8" />
                 </div>
 
-                <div class="links flex">
-                <button href="#" class="text-black">Search Bar</button>
-                <button href="#" class="text-black">Create Blog Post</button>
+                <div class="copyright flex">
+                <p>Copyright@2023.BlogPost</p>
                 </div>
             </div>
         </nav>      

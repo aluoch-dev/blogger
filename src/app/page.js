@@ -1,9 +1,13 @@
-import { Navabr } from "@/pages/navbar";
+import { Navbar } from "@/pages/navbar";
+import logo from './../images/logo.svg'
+import { Footer } from "@/pages/footer";
 
 
 export default function Home() {
   return (
-    <Navabr />
-    
+    <>
+      <Navbar logo={logo}/>
+      <Footer logo={logo}/>
+    </>
   )
 }
