@@ -4,7 +4,6 @@ import { Footer } from "@/components/footer";
 import { BlogItem } from "@/components/blogItem";
 import blogData from "@/data/blogdata";
 
-
 export default function Home() {
   return (
     <>
