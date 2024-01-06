@@ -10,7 +10,9 @@ export const Navbar = ({logo}) => {
 
                 <div class="links flex">
                 <button href="#" class="text-black">Search Bar</button>
-                <button href="#" class="text-black">Create Blog Post</button>
+                <button class="bg-gray-400 hover:bg-gray-500 text-base text-white font-semibold py-2 px-4 rounded">
+                    Create Blog Post
+                </button>
                 </div>
             </div>
         </nav>      

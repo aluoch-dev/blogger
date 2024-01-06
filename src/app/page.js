@@ -1,7 +1,7 @@
-import { Navbar } from "@/pages/navbar";
+import { Navbar } from "@/components/navbar";
 import logo from './../images/logo.svg'
-import { Footer } from "@/pages/footer";
-import { BlogItem } from "@/pages/blogItem";
+import { Footer } from "@/components/footer";
+import { BlogItem } from "@/components/blogItem";
 import blogData from "@/data/blogdata";
 
 
