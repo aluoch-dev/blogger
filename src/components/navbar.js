@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "./buttons";
 import Link from "next/link";
-import { Input } from "./inputs";
+import { SearchInput } from "./inputs";
 
 export const Navbar = ({logo}) => {
     return (
@@ -15,7 +15,7 @@ export const Navbar = ({logo}) => {
                     <Link 
                     className="px-2 py-2"
                     href="/blog">Blogs</Link>
-                    <Input />
+                    <SearchInput />
                     <Button 
                     className="px-2 py-2"
                     title="Create Blog Post"

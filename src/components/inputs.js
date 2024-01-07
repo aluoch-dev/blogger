@@ -1,5 +1,5 @@
 
-export const Input = () => {
+export const SearchInput = () => {
     return (
         <div className="relative px-2 py-2">
             <input
