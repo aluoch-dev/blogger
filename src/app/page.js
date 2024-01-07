@@ -12,8 +12,8 @@ export default function Home() {
       </div>
 
       <BlogList 
-        blogData={blogData}/>
-      
+        blogData={blogData}
+        />
     </>
   )
 }

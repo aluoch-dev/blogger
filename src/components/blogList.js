@@ -1,6 +1,8 @@
 import { BlogCard } from "./blogCard"
+import { formatDate } from "@/utilities/helpers"
 
 const BlogList = ({blogData}) => {
+
     return (
         <div className="container mx-auto p-4 m">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -9,7 +11,7 @@ const BlogList = ({blogData}) => {
                 key={index}
                 slug={blogDataItem.slug}
                 image={blogDataItem.image}
-                date={blogDataItem.date}
+                date={formatDate(blogDataItem.date)}
                 readTime={blogDataItem.readTime}
                 title={blogDataItem.title}
                 content={blogDataItem.content}
@@ -20,4 +22,4 @@ const BlogList = ({blogData}) => {
     )
 }
 
-export default BlogList
+export default BlogList;
