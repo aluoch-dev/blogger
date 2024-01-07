@@ -1,5 +1,5 @@
-
 export const SearchInput = () => {
+     
     return (
         <form className="relative py-2 block lg:inline-block lg:mt-0">
             <input
