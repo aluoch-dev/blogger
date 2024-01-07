@@ -1,7 +1,7 @@
 import { BlogCard } from "./blogCard"
 import { formatDate } from "@/utilities/helpers"
 
-const BlogList = ({blogData}) => {
+ const BlogList = ({blogData}) => {
 
     return (
         <div className="container mx-auto p-4 m">

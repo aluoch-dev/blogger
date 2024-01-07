@@ -1,9 +1,14 @@
 import Image from "next/image";
 import { Button } from "./buttons";
 import Link from "next/link";
-import { SearchInput } from "./inputs";
+import { SearchInput } from "./search";
 
 export const Navbar = ({logo}) => {
+
+    function handleButtonClick() {
+        //should redirect to create post page
+        console.log('Clicked button!')
+    }
     return (
         <>
             <nav className="flex items-center justify-between flex-wrap bg-gray-300 p-6">
@@ -35,7 +40,7 @@ export const Navbar = ({logo}) => {
                             <Button 
                                 className="hover:text-white block lg:inline-block lg:mt-0 md:inline-block md:mt-0"
                                 title="Create Blog Post"
-                                onClick=""
+                                onClick={handleButtonClick()}
                             />
                         </div>          
                     </div>
