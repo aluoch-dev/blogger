@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "./buttons";
 import Link from "next/link";
-import { SearchInput } from "./inputs";
+import { SearchInput } from "./search";
 
 export const Navbar = ({logo}) => {
 
