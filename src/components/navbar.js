@@ -24,7 +24,7 @@ export const Navbar = ({logo}) => {
                     <div className="lg:p-4 md:p-2">
                         <Link 
                             className="hover:text-white block lg:inline-block lg:mt-0 md:inline-block md:mt-0"
-                            href="/blog">Blogs</Link>
+                            href="/">Blogs</Link>
                         </div>
                         <div className="lg:px-4 md:px-2">
                             <SearchInput 

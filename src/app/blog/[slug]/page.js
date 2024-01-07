@@ -21,7 +21,7 @@ export default async function BlogItem({ params }) {
     return (
       <div className="flex flex-wrap">
           <div className="container mx-auto p-8">
-            <Link href='/blog'><span>&larr;</span>Back to blog posts</Link>
+            <Link href='/'><span>&larr;</span>Back to blog posts</Link>
           </div>
 
           <div className="container mx-auto p-8">
