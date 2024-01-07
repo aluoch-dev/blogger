@@ -37,8 +37,7 @@ export const Navbar = ({logo}) => {
                                 title="Create Blog Post"
                                 onClick=""
                             />
-                        </div>         
-                        
+                        </div>          
                     </div>
                 </div>
                 </div>
