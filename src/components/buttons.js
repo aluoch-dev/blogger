@@ -10,3 +10,13 @@ export const Button = ({title, onClick}) => {
     )
 }
 
+export const PaginationButton = ({text, onClick}) => {
+    return (
+        <button 
+            className="bg-transparent hover:bg-blue-900 text-black text-center py-2 px-4 rounded-l"
+            onClick={onClick}
+            >
+            {text}
+        </button>
+    )
+}
