@@ -20,17 +20,17 @@ export const Navbar = ({logo}) => {
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto md:flex md:items-center md:w-auto">
             <div className="text-sm lg:flex-grow md:flex-grow"></div>
             <div>
+            <div className="lg:flex lg:items-center">
             <Link 
                 className="px-2 py-2 hover:text-white block mt-4 lg:inline-block lg:mt-0 md:inline-block md:mt-0"
                 href="/blog">Blogs</Link>
-            {/* <SearchInput
-                className="px-2 py-2 block mt-4 lg:inline-block lg:mt-0"
-            /> */}
+            <SearchInput />            
             <Button 
                 className="px-2 py-2 block mt-4 lg:inline-block lg:mt-0 "
                 title="Create Blog Post"
                 onClick=""
             />
+            </div>
             </div>
         </div>
         </nav>
