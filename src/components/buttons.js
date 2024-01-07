@@ -10,11 +10,11 @@ export const Button = ({title, onClick}) => {
     )
 }
 
-// export const PaginationButton = ({text, onClick}) => {
-//     return (
-//         <button 
-//             className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
-//             {text}
-//         </button>
-//     )
-// }
+export const PaginationButton = ({text, onClick}) => {
+    return (
+        <button 
+            className="bg-transparent hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-l">
+            {text}
+        </button>
+    )
+}
