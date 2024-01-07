@@ -20,22 +20,18 @@ export default async function BlogItem({ params }) {
 
     return (
       <div className="flex flex-wrap">
-        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-4 bg-white">
-          <div className="flex items-start">
+          <div className="container mx-auto p-8">
             <Link href='/blog'><span>&larr;</span>Back to blog posts</Link>
           </div>
-          <div className="flex items-center">
-          <div className="text-sm">
-              <h2 class="font-bold text-l mb-2">{title}</h2>
-              <h1><span>{date}</span> . <span>{readTime} min Read</span></h1>
-          </div>
-          <Image className="" src={image} alt="" />
-          <p className="text-black text-base">
+
+          <div className="container mx-auto p-8">
+            <h2 className="font-bold text-xl mb-4 w-full text-center">{title}</h2>
+            <h1 className="text-sm mb-4 text-center"><span>{date}</span> . <span>{readTime} min Read</span></h1>
+            <Image className="w-full mb-4" src={image} alt="" />
+            <p className="text-black text-base text-start">
                 {content}...
             </p>
           </div>
-
-        </div>
       </div>
     );
   }
