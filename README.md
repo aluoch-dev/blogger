@@ -1,4 +1,4 @@
-## Table of Contents
+## Blogger - Nextjs and TailwindCSS Blog Template
 
 Blogger is a simple blog template that can be reused to create blogging websites. The template is created using Nextjs and Tailwind CSS. 
 
