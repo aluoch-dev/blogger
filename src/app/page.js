@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import logo from './../images/logo.svg'
 import { Footer } from "@/components/footer";
-import { BlogItem } from "@/components/blogItem";
+import { BlogCard } from "@/components/blogCard";
 import blogData from "@/data/blogdata";
 
 export default function Home() {
@@ -16,8 +16,9 @@ export default function Home() {
       <div className="container mx-auto p-4 m">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {blogData?.map((blogDataItem, index) => (
-            <BlogItem 
+            <BlogCard 
               key={index}
+              slug={blogDataItem.slug}
               image={blogDataItem.image}
               date={blogDataItem.date}
               readTime={blogDataItem.readTime}
