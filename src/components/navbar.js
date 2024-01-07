@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Button } from "./buttons";
+import Link from "next/link";
+import { Input } from "./inputs";
 
 export const Navbar = ({logo}) => {
     return (
@@ -10,11 +12,15 @@ export const Navbar = ({logo}) => {
                 </div>
 
                 <div class="links flex">
-                <button href="#" class="text-black">Search Bar</button>
-               <Button 
-                title="Create Blog Post"
-                onClick=""
-                />
+                    <Link 
+                    className="px-2 py-2"
+                    href="/blog">Blogs</Link>
+                    <Input />
+                    <Button 
+                    className="px-2 py-2"
+                    title="Create Blog Post"
+                    onClick=""
+                    />
                 </div>
             </div>
         </nav>      
