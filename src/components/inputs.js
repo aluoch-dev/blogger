@@ -1,9 +1,9 @@
 
 export const SearchInput = () => {
     return (
-        <form className="relative px-2 py-2 block lg:inline-block lg:mt-0 md:inline-block md:mt-0">
+        <form className="relative py-2 block lg:inline-block lg:mt-0">
             <input
-                className="bg-transparent appearance-none border border-black rounded py-2 px-3 pr-10 text-gray-400"
+                className="bg-transparent appearance-none border border-black rounded py-2 px-3 pr-10 text-gray-400 w-full"
                 id="search"
                 type="text"
                 placeholder="Text"
