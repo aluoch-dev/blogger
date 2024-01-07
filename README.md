@@ -38,3 +38,4 @@ Once, the installations are complete, you can start the game as below:
    npm run dev
 
 2. Once your server is started, start your browser and load the URL: `http://localhost:3000`
+3. Edit and have fun with the template to suit your blog needs!
