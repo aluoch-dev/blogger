@@ -1,5 +1,4 @@
 import { BlogCard } from "@/components/blogCard";
-import { SearchInput } from "@/components/inputs";
 import blogData from "@/data/blogdata";
 
 export default function Blog() {
